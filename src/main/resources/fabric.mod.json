@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "herobrine-ai",
+  "version": "${version}",
+  "name": "Herobrine AI",
+  "description": "Adaptive Herobrine horror: AI planning, memory, signs, structures, possessed animals and nightmares.",
+  "authors": ["OpenAI + user project"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.herobrineai.HerobrineAiMod"],
+    "client": ["pl.herobrineai.client.HerobrineAiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

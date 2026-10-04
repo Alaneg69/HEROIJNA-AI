@@ -1,0 +1,3 @@
+This workspace was authored against the current Fabric 26.2 example-project coordinates.
+The execution environment used to generate it has Java 21 but Minecraft 26.2/Fabric currently target Java 25, so the project was not locally compiled here.
+Open the folder in IntelliJ IDEA with JDK 25 and let Gradle import the project; then run `build`.
